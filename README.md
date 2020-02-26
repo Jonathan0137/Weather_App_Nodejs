@@ -1,2 +1,2 @@
 # Weather_App
-This is a web weather app that is visualizing weather data using an open-source weather API
+This is a Node js project that gets data from opensource weather api
