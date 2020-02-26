@@ -1,7 +1,7 @@
 {
   "name": "weather_app",
   "version": "1.0.0",
-  "description": "This is an web app that takes weather data from open source Web API and visualize it on a website",
+  "description": "This is a web weather app that is visualizing weather data using an open-source weather API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
