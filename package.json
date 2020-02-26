@@ -1,0 +1,17 @@
+{
+  "name": "weather_app",
+  "version": "1.0.0",
+  "description": "This is an web app that takes weather data from open source Web API and visualize it on a website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonathan0137/Weather_App.git"
+  },
+  "author": "Chongmin Bai",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
