@@ -13,5 +13,7 @@
   "author": "Chongmin Bai",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
+    "request": "^2.88.2"
   }
 }

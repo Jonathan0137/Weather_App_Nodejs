@@ -1,12 +1,12 @@
 const config = require('./config.json');
 const request = require('request');
+const dotenv = require('dotenv').config();
 
-const API_Key = 'b942a4a2b51d0b5bc823a2d128537f4e';
-const location = process.argz[2];
-
-
+const location = process.argv[2];
 var url = config.api.weatherURLwithUnits;
-url=url.replace("!!!", API_Key)
+
+
+url=url.replace("!!!", process.env.API_Key)
 url=url.replace("???", location)
 url=url.replace("$$$", "metric")
 
@@ -17,6 +17,6 @@ if(!location){
 
 request(url, (error, response, body)=>{
     const data = JSON.parse(body)
-    console.log(data)
+    // console.log(data)
     console.log("It is currently " + data.main.temp + " in "+ location)
 })
