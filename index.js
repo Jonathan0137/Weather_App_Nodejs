@@ -18,5 +18,5 @@ if(!location){
 request(url, (error, response, body)=>{
     const data = JSON.parse(body)
     // console.log(data)
-    console.log("It is currently " + data.main.temp + " in "+ location)
+    console.log("It is currently " + data.main.temp + " degrees in "+ location)
 })
